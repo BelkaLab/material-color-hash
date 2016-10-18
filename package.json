@@ -1,6 +1,6 @@
 {
   "name": "material-color-hash",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Hash strings to Material UI colors",
   "repository": {
     "type": "git",
