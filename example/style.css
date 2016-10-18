@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#demo > div {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#demo input {
+  font-size: 1.5em;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 1px solid #FFFFFF;
+}
+#demo input:focus {
+  outline: none;
+}
+
+div.desc {
+  width: 950px;
+  margin: 0 auto;
+}
+div.desc h1 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 3em;
+}
+div.desc h3 {
+  text-align: center;
+  color: #6d6d6d
+}
+
+div.desc p code {
+  background: #f0f0f0;
+  padding: 2px 5px;
+  margin: 0 3px;
+}
+
+div.shade {
+  height: 60px;
+  position: relative;
+}
+span.color-hash {
+  visibility: hidden;
+  line-height: 60px;
+  position: absolute;
+  left: 10px;
+}
+div.shade:hover span.color-hash {
+  visibility: visible;
+}
+
+div.badges {
+  width: 900px;
+  margin: 20px auto 50px auto;
+}
+
+div.badge {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  width: 100px;
+  margin: 0 98px;
+  border-radius: 50%;
+  font-size: 1.6em;
+}
