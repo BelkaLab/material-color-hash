@@ -1,6 +1,6 @@
 {
   "name": "material-color-hash",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Hash strings to Material UI colors",
   "main": "./lib/index.js",
   "scripts": {
