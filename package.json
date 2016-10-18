@@ -2,6 +2,10 @@
   "name": "material-color-hash",
   "version": "0.1.0",
   "description": "Hash strings to Material UI colors",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BelkaLab/material-color-hash"
+  },
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rm -rf lib",
