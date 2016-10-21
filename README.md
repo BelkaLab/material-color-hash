@@ -78,10 +78,10 @@ const MaterialBadge = (props) => {
 }
 ```
 
-For more information about Material Design colors and how to use them, check out the [https://material.google.com/style/color.html](official Material Design site) by Google
+For more information about Material Design colors and how to use them, check out the [official Material Design docs](https://material.google.com/style/color.html) by Google
 
 ## Contributors
-[Giovanni Frigo](https://github.com/giovannifrigo), [Belka](https://github.com/BelkaLab)
+[Giovanni Frigo](https://github.com/giovannifrigo), Developer @[Belka](https://github.com/BelkaLab)
 
 ## License
 material-color-hash is Copyright (c) 2016 Belka, srl. It is free software, and may be redistributed under the terms specified in the LICENSE file. (TL;DR: MIT license)
