@@ -11,7 +11,8 @@ body {
 
 #demo input {
   font-size: 1.5em;
-  padding: 15px 30px;
+  padding: 14px 30px;
+  line-height: 28px;
   border-radius: 5px;
   border: 1px solid #FFFFFF;
 }
@@ -31,6 +32,19 @@ div.desc h1 {
 div.desc h3 {
   text-align: center;
   color: #6d6d6d
+}
+div.desc h4 {
+  text-align: center;
+  color: #404040;
+  margin: 50px 0;
+  border-top: 3px dashed rgba(178, 9, 9, .7);
+  border-bottom: 3px dashed rgba(178, 9, 9, .7);
+  padding: 50px;
+}
+div.desc h4 a {
+  color: #B10909;
+  font-weight: bolder;
+  text-decoration: none;
 }
 
 div.desc p code {
@@ -68,4 +82,10 @@ div.badge {
   margin: 0 98px;
   border-radius: 50%;
   font-size: 1.6em;
+  font-weight: bolder;
+  transition: transform .1s;
+}
+
+div.badge:hover {
+    transform: scale(1.2);
 }
