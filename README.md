@@ -13,7 +13,7 @@ Great for dynamically coloring your UI elements (badges, list icons, ..) with go
 
 # Interactive Demo
 **[http://belkalab.github.io/material-color-hash/](http://belkalab.github.io/material-color-hash)**
-![http://belkalab.github.io/material-color-hash/](examples/screen.png)
+![http://belkalab.github.io/material-color-hash/](example/screen.png)
 
 ## Usage
 
