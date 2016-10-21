@@ -7,9 +7,13 @@ Hash a string to a Material Design color
 [![npm version](https://badge.fury.io/js/material-color-hash.svg)](https://badge.fury.io/js/material-color-hash)
 ![Alt text](https://img.shields.io/badge/license-MIT-green.svg?style=flat)
 
-A dead-simple library to hash a string to a {background-color, text-color} tuple from the official Material Design palette.
+A dead-simple library to hash a string to a {backgroundColor, textColor} tuple from the official Material Design palette.
 
-Great for dinamically coloring your UI elements (badges, list icons, ..) with good-looking, vibrant colors and ensured text legibility.
+Great for dynamically coloring your UI elements (badges, list icons, ..) with good-looking, vibrant colors and ensured text legibility.
+
+# Interactive Demo
+**[http://belkalab.github.io/material-color-hash/](http://belkalab.github.io/material-color-hash)**
+![http://belkalab.github.io/material-color-hash/](examples/screen.png)
 
 ## Usage
 
@@ -56,7 +60,7 @@ var emojiStyle = toMaterialStyle('😎');
 
 The return object can be fed directly as a style prop to React components:
 
-         
+
 ```js
 import toMaterialStyle from 'material-color-hash';
 
@@ -72,8 +76,8 @@ const MaterialBadge = (props) => {
 		</div>
 	);
 }
-``` 
-      
+```
+
 For more information about Material Design colors and how to use them, check out the [https://material.google.com/style/color.html](official Material Design site) by Google
 
 ## Contributors
