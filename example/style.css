@@ -3,8 +3,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h1, p {
+    color: #212121;
+}
+
 p {
-  color: #212121;
   font-size: 20px;
   line-height: 1.4em;
 }
