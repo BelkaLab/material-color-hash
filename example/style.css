@@ -28,6 +28,7 @@ pre {
   line-height: 28px;
   border-radius: 5px;
   border: 1px solid #FFFFFF;
+  transition: .3s background-color;
 }
 #demo input:focus {
   outline: none;
