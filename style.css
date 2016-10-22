@@ -3,6 +3,19 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h1, p {
+    color: #212121;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+pre {
+  font-size: 18px;
+}
+
 #demo > div {
   text-align: center;
   position: relative;
@@ -15,6 +28,7 @@ body {
   line-height: 28px;
   border-radius: 5px;
   border: 1px solid #FFFFFF;
+  transition: .3s background-color;
 }
 #demo input:focus {
   outline: none;
@@ -56,6 +70,7 @@ div.desc p code {
 div.shade {
   height: 60px;
   position: relative;
+  transition: .3s background-color;
 }
 span.color-hash {
   visibility: hidden;
