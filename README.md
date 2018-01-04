@@ -58,7 +58,7 @@ var emojiStyle = toMaterialStyle('😎');
 // }
 ```
 
-The return object can be fed directly as a style prop to React components:
+The returned object can be fed directly as a style prop to React components:
 
 
 ```js
@@ -84,7 +84,7 @@ For more information about Material Design colors and how to use them, check out
 [Giovanni Frigo](https://github.com/giovannifrigo), Developer @[Belka](https://github.com/BelkaLab)
 
 ## License
-material-color-hash is Copyright (c) 2016 Belka, srl. It is free software, and may be redistributed under the terms specified in the LICENSE file. (TL;DR: MIT license)
+material-color-hash is Copyright (c) 2016-2018 Belka, srl. It is free software, and may be redistributed under the terms specified in the LICENSE file. (TL;DR: MIT license)
 
 ## About Belka
 ![Alt text](http://s2.postimg.org/rcjk3hf5x/logo_rosso.jpg)
