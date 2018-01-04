@@ -25,6 +25,6 @@ export default function toMaterialStyle(text, shade) {
   return {
     backgroundColor: colorObj.shades[shadeStr],
     color: parseInt(shadeStr, 10) >= colorObj.whiteBreakpoint ? materialWhite : materialBlack,
-    materiaColorName: colorObj.name
+    materialColorName: colorObj.name
   };
 }
