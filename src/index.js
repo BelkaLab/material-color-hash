@@ -14,7 +14,7 @@ function getColorObj(text) {
 }
 
 /* Get a ready-to-use Style object of the Material color of a string */
-export default function toMaterialStyle(text, shade) {
+function toMaterialStyle(text, shade) {
   let shadeStr = `${shade}`; // convert shade to string
   if (!availableShades.includes(shadeStr)) {
     shadeStr = '500';
@@ -28,3 +28,5 @@ export default function toMaterialStyle(text, shade) {
     materialColorName: colorObj.name
   };
 }
+
+export default toMaterialStyle;
