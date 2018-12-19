@@ -14,7 +14,7 @@ function getColorObj(text) {
 }
 
 /* Get a ready-to-use Style object of the Material color of a string */
-function toMaterialStyle(text, shade) {
+function toMaterialStyle(text, shade = 500) {
   let shadeStr = `${shade}`; // convert shade to string
   if (!availableShades.includes(shadeStr)) {
     shadeStr = '500';
