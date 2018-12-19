@@ -87,7 +87,6 @@ For more information about Material Design colors and how to use them, check out
 material-color-hash is Copyright (c) 2016-2018 Belka, srl. It is free software, and may be redistributed under the terms specified in the LICENSE file. (TL;DR: MIT license)
 
 ## About Belka
-![Alt text](http://s2.postimg.org/rcjk3hf5x/logo_rosso.jpg)
 
 [Belka](http://belka.us/en) is a Digital Agency specialized in design, mobile applications development and custom solutions.
 We love open source software! You can [see our projects](http://belka.us/en/portfolio/) or look at our case studies.
