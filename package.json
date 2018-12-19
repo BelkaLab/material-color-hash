@@ -31,6 +31,6 @@
     "eslint-plugin-react": "^6.3.0"
   },
   "dependencies": {
-    "string-hash": "^1.1.0"
+    "string-hash": "^1.1.3"
   }
 }
